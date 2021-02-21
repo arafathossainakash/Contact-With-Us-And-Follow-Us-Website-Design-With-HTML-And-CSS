@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+  background-image: url(../image/bg.svg)
+}
+.mainContainer {
+    width: 1145px;
+    display: flex;
+    background: white;
+    margin-top: 130px;
+    margin-left: 120px;
+}
+
+
+/**Left Container Work Start**/
+
+
+.leftContainer {
+    float: left;
+    margin-right: 120px;
+    padding-bottom: 60px;
+}
+
+.enterName {
+    border-bottom: 2px solid black;
+    height: 55px;
+    width: 390px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.enterEmail {
+    border-bottom: 2px solid black;
+    height: 55px;
+    width: 390px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.enterMessage {
+    border-bottom: 2px solid black;
+    height: 85px;
+    width: 390px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.leftContainer input {
+    margin-left: 15px;
+    font-size: 20px;
+}
+input[type="name"] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    border: 0;
+}
+
+input[type="email"] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+
+textarea {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 0;
+    resize: none;
+}
+textarea {
+    margin-left: 15px;
+    font-size: 23px;
+    letter-spacing: -1px;
+}
+
+button.submitBtn {
+    width: 140px;
+    height: 45px;
+    outline: none;
+    border: 0;
+    background: #0052ff;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.submitBtn:hover{
+    background: #7aa0f1;
+    color: black;
+    
+}
+
+/**Left Container Work End**/
+
+
+/**Right Container Work Start**/
+
+.rightContainer {
+    
+}
+.rightContainer h3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #676262;
+    font-weight: 500;
+}
+
+.rightContainer h1 {
+    font-size: 35px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    color: #524545;
+    padding-top: 15px;
+}
+date {
+    font-size: 25px;
+    font-weight: 600;
+    color: #867f7f;
+}
+
+.rightContainer span {
+    font-size: 25px;
+    font-weight: 700;
+    color: #524545;
+    cursor: pointer;
+}
+
+.incons {
+    width: 265px;
+    padding-bottom: 20px;
+}
+
+.incons i {
+    font-size: 25px;
+    padding-right: 15px;
+    color: #0052ff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.incons i:hover{
+    color: black;
+}
+footer {
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #a98686;
+}
+
+
+/**Right Container Work End**/
+
+
+
+
+
+
+
+
